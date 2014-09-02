@@ -10,12 +10,13 @@ import Foundation
 
 class HashBucket {
     
-    var key : String?
+    var key : String
     var nextBucket : HashBucket?
     var value : AnyObject?
     
-    init() {
-        
+    init(key: String, value: AnyObject?) {
+        self.key = key
+        self.value = value
     }
     
 }

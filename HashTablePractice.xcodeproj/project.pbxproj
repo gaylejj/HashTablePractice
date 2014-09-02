@@ -38,6 +38,7 @@
 		254C0A0319B65C9100C75339 /* HashTablePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTablePracticeTests.swift; sourceTree = "<group>"; };
 		254C0A0D19B65C9A00C75339 /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		254C0A0F19B65CA100C75339 /* HashBucket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashBucket.swift; sourceTree = "<group>"; };
+		254C0A1119B679F600C75339 /* Factor test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Factor test.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		254C09E219B65C9100C75339 = {
 			isa = PBXGroup;
 			children = (
+				254C0A1119B679F600C75339 /* Factor test.playground */,
 				254C09ED19B65C9100C75339 /* HashTablePractice */,
 				254C0A0019B65C9100C75339 /* HashTablePracticeTests */,
 				254C09EC19B65C9100C75339 /* Products */,
@@ -403,6 +405,7 @@
 				254C0A0919B65C9100C75339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		254C0A0A19B65C9100C75339 /* Build configuration list for PBXNativeTarget "HashTablePracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +414,7 @@
 				254C0A0C19B65C9100C75339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
