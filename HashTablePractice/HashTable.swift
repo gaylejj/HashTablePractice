@@ -140,21 +140,7 @@ class HashTable {
                 }
             }
         }
-        
     }
-    /*
-    private void resize() {
-    int tableSize = 2 * table.length;
-    maxSize = (int) (tableSize * threshold);
-    HashEntry[] oldTable = table;
-    table = new HashEntry[tableSize];
-    size = 0;
-    for (int i = 0; i < oldTable.length; i++)
-    if (oldTable[i] != null
-    && oldTable[i] != DeletedEntry.getUniqueDeletedEntry())
-    put(oldTable[i].getKey(), oldTable[i].getValue());
-    }
-    */
     
     
 }
